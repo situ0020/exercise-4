@@ -21,4 +21,10 @@ html {
 
 body{
 	margin: 0;
+	font-family: $font;
+}
+
+ul{
+	list-style: none;
+	padding: .5em;
 }
