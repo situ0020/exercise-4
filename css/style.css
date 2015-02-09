@@ -1,0 +1,39 @@
+/* This file imports all your scss partials to be compiled in one stylesheet, which can be attached to your html.
+All the files that are refixed with an underscore
+"_name-of-file.scss" are called partials - meaning that their css isn't compiled unless it's imported into an unprefixed .scss file */
+/* are placeholders for storing information that you want to reuse throughout your styles. You can store things like colors font-stacks or any other css value you might want to reuse.
+SCSS use the '$' to declare variables */
+@-moz-viewport {
+  width: device-width;
+  scale: 1; }
+
+@-ms-viewport {
+  width: device-width;
+  scale: 1; }
+
+@-o-viewport {
+  width: device-width;
+  scale: 1; }
+
+@-webkit-viewport {
+  width: device-width;
+  scale: 1; }
+
+@viewport {
+  width: device-width;
+  scale: 1; }
+
+/* line 9, /Users/katiesitu/Desktop/web-dev/exercise-4/scss/components/_main */
+html {
+  box-sizing: border-box;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%; }
+
+/* line 18, /Users/katiesitu/Desktop/web-dev/exercise-4/scss/components/_main */
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+/* line 22, /Users/katiesitu/Desktop/web-dev/exercise-4/scss/components/_main */
+body {
+  margin: 0; }
