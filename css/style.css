@@ -55,8 +55,8 @@ img {
   width: 100%; }
 
 /* line 44, /Users/katiesitu/Desktop/web-dev/exercise-4/scss/components/_main */
-.unit-s-2 {
-  width: 50%; }
+.unit-s-4 {
+  width: 25%; }
 
 /* line 48, /Users/katiesitu/Desktop/web-dev/exercise-4/scss/components/_main */
 .fa {
@@ -70,20 +70,19 @@ h3 {
   text-align: center; }
 
 /* line 59, /Users/katiesitu/Desktop/web-dev/exercise-4/scss/components/_main */
+.text-view {
+  height: 100%; }
+
+/* line 62, /Users/katiesitu/Desktop/web-dev/exercise-4/scss/components/_main */
 .text-view div {
-  opacity: 1;
+  opacity: 0;
   position: relative;
   top: -38em;
   transition: all 1s linear;
   z-index: -2; }
 
-/* line 70, /Users/katiesitu/Desktop/web-dev/exercise-4/scss/components/_main */
+/* line 73, /Users/katiesitu/Desktop/web-dev/exercise-4/scss/components/_main */
 .text-view:hover div {
   top: 0;
-  z-index: -2; }
-
-@media only screen and (min-width: 60em) {
-  /* line 76, /Users/katiesitu/Desktop/web-dev/exercise-4/scss/components/_main */
-  .unit-m-4 {
-    width: 25%; }
- }
+  z-index: -2;
+  opacity: 1; }
