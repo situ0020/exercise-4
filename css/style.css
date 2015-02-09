@@ -64,17 +64,20 @@ img {
 
 /* line 52, /Users/katiesitu/Desktop/web-dev/exercise-4/scss/components/_main */
 h3 {
-  padding: 0.5em;
+  background-color: #fff;
+  padding: 2em 0;
+  margin: 0;
   text-align: center; }
 
-/* line 57, /Users/katiesitu/Desktop/web-dev/exercise-4/scss/components/_main */
-.text-view {
+/* line 59, /Users/katiesitu/Desktop/web-dev/exercise-4/scss/components/_main */
+.text-view div {
   opacity: 1;
-  background-color: #fff;
-  transition: opacity 0.5s ease-in 0s;
-  transition: background-color 0.5s ease-in 0s; }
+  position: relative;
+  top: -38em;
+  transition: all 1s linear;
+  z-index: -2; }
 
 /* line 70, /Users/katiesitu/Desktop/web-dev/exercise-4/scss/components/_main */
-.text-view:hover {
-  opacity: 0.75;
-  background-color: #7eb1b3; }
+.text-view:hover div {
+  top: 0;
+  z-index: -2; }
