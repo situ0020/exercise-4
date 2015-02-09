@@ -55,8 +55,8 @@ img {
   width: 100%; }
 
 /* line 44, /Users/katiesitu/Desktop/web-dev/exercise-4/scss/components/_main */
-.unit-s-4 {
-  width: 25%; }
+.unit-s-2 {
+  width: 50%; }
 
 /* line 48, /Users/katiesitu/Desktop/web-dev/exercise-4/scss/components/_main */
 .fa {
@@ -81,3 +81,9 @@ h3 {
 .text-view:hover div {
   top: 0;
   z-index: -2; }
+
+@media only screen and (min-width: 60em) {
+  /* line 76, /Users/katiesitu/Desktop/web-dev/exercise-4/scss/components/_main */
+  .unit-m-4 {
+    width: 25%; }
+ }

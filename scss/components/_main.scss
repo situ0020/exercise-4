@@ -41,8 +41,8 @@ img{
 	width: 100%;
 }
 
-.unit-s-4{
-	width: 25%;
+.unit-s-2{
+	width: 50%;
 }
 
 .fa{
@@ -70,4 +70,10 @@ h3{
 .text-view:hover div{
 	top: 0;
 	z-index: -2;
+}
+
+@media only screen and (min-width: 60em){
+	.unit-m-4{
+		width: 25%;
+	}
 }
