@@ -41,3 +41,19 @@ body {
 ul {
   list-style: none;
   padding: 0.5em; }
+
+/* line 32, /Users/katiesitu/Desktop/web-dev/exercise-4/scss/components/_main */
+.grid {
+  overflow: hidden; }
+
+/* line 36, /Users/katiesitu/Desktop/web-dev/exercise-4/scss/components/_main */
+.unit {
+  float: left; }
+
+/* line 40, /Users/katiesitu/Desktop/web-dev/exercise-4/scss/components/_main */
+img {
+  width: 100%; }
+
+/* line 44, /Users/katiesitu/Desktop/web-dev/exercise-4/scss/components/_main */
+.unit-s-4 {
+  width: 25%; }

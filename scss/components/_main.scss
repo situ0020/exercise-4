@@ -28,3 +28,19 @@ ul{
 	list-style: none;
 	padding: .5em;
 }
+
+.grid {
+	overflow: hidden;
+}
+
+.unit {
+	float: left;
+}
+
+img{
+	width: 100%;
+}
+
+.unit-s-4{
+	width: 25%;
+}
