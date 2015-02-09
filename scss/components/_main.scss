@@ -39,7 +39,6 @@ ul{
 
 img{
 	width: 100%;
-	opacity: 0;
 }
 
 .unit-s-4{
@@ -54,3 +53,21 @@ h3{
 	padding: .5em;
 	text-align: center;
 }
+
+.text-view{
+	opacity: 1;
+	background-color: $white;
+	-webkit-transition: opacity 0.5s ease-in 0s;
+	-moz-transition: opacity 0.5s ease-in 0s;
+	-o-transition: opacity 0.5s ease-in 0s;
+	transition: opacity 0.5s ease-in 0s;
+	-webkit-transition: background-color 0.5s ease-in 0s;
+	-moz-transition: background-color 0.5s ease-in 0s;
+	-o-transition: background-color 0.5s ease-in 0s;
+	transition: background-color 0.5s ease-in 0s;
+}
+
+.text-view:hover{
+	opacity: .75;
+	background-color: $blue;
+	}

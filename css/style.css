@@ -52,18 +52,29 @@ ul {
 
 /* line 40, /Users/katiesitu/Desktop/web-dev/exercise-4/scss/components/_main */
 img {
-  width: 100%;
-  opacity: 0; }
+  width: 100%; }
 
-/* line 45, /Users/katiesitu/Desktop/web-dev/exercise-4/scss/components/_main */
+/* line 44, /Users/katiesitu/Desktop/web-dev/exercise-4/scss/components/_main */
 .unit-s-4 {
   width: 25%; }
 
-/* line 49, /Users/katiesitu/Desktop/web-dev/exercise-4/scss/components/_main */
+/* line 48, /Users/katiesitu/Desktop/web-dev/exercise-4/scss/components/_main */
 .fa {
   padding-left: 0.5em; }
 
-/* line 53, /Users/katiesitu/Desktop/web-dev/exercise-4/scss/components/_main */
+/* line 52, /Users/katiesitu/Desktop/web-dev/exercise-4/scss/components/_main */
 h3 {
   padding: 0.5em;
   text-align: center; }
+
+/* line 57, /Users/katiesitu/Desktop/web-dev/exercise-4/scss/components/_main */
+.text-view {
+  opacity: 1;
+  background-color: #fff;
+  transition: opacity 0.5s ease-in 0s;
+  transition: background-color 0.5s ease-in 0s; }
+
+/* line 70, /Users/katiesitu/Desktop/web-dev/exercise-4/scss/components/_main */
+.text-view:hover {
+  opacity: 0.75;
+  background-color: #7eb1b3; }
